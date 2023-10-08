@@ -13,7 +13,7 @@ def elenca_file_in_cartella(cartella):
         print(f"La cartella '{cartella}' non esiste.")
         return []
 
-folder_path = "D:\\Progetti\\NASA_SPACE_CHALLENGE_Sonification\\Image"
+folder_path = "D:\\Progetti\\Sonification_nasa_space\\Image"
 images_path = elenca_file_in_cartella(folder_path)
 
 for n in range(len(images_path)):
